@@ -1,0 +1,2 @@
+# MNSIT-R
+ We will be focusing on generating a 28X28 grayscale image which represents a handwritten digit starting from 0 to 9 integers. The chosen dataset is MINST data which has both test and train data, with 60,000 observations and 784 features and one label variable with 0 to 9 levels representing handwritten digits. We work to train 784 regression tree models on the training set and then apply predictions on the 784 regression models and with input labels from 0 to 9. Once we get these predictions, we need to combine the output to print the predicted handwritten digit.
